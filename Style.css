@@ -1,0 +1,97 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    background-color: aquamarine;
+}
+.container{
+    width: 40%;
+    min-width: 450px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background: white;
+    min-height: 100px;
+    border-radius: 10px;
+}
+#newtask{
+    padding: 30px 20px;
+    position: relative;
+}
+#newtask input{
+    width: 75%;
+    height: 45%;
+    font-family: sans-serif;
+    font-size: 15px;
+    border: 2px solid #d1d;
+    padding: 12px;
+    color: black;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+}
+#newtask input:focus{
+    outline: none;
+    border-color: #0d75;
+}
+#newtasks button{
+    position: relative;
+    float: right;
+    width: 20%;
+    height: 45px;
+    border-radius: 5px;
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #0d75;
+    border: none;
+    color: white;
+    outline: none;
+}
+#tasks{
+    background-color: #d1d;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: solid 1px #0ddd0d;
+    color: black;
+    cursor: pointer;
+}
+.tasks{
+    background-color: #c5c5c5;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #939393;
+    cursor: pointer;
+}
+.task span{
+    font-family: 'poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+.task button{
+    background: #d1d;
+    color: white;
+    height: 100%;
+    width: 40px;
+    height: 100%;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+}
+.delete{
+
+}
+
+
+
+
